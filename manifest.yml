@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: shahniket-nodejs-app1
+  host: shahniket-nodejs-app1
+  disk_quota: 1024M
+  services:
+  - shahniket-nodejs-app1-cloudantNoSQLDB
